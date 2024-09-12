@@ -1,0 +1,17 @@
+"","Treatments","rank","Counts","Probability"
+"1","Antibiotics","1",47365,0.9473
+"2","α-Blockers","1",1183,0.02366
+"3","α-Blockers + Antibiotics","1",124,0.00248
+"4","Anti-inflammatory","1",1328,0.02656
+"5","Antibiotics","2",2047,0.04094
+"6","α-Blockers","2",19770,0.3954
+"7","α-Blockers + Antibiotics","2",20661,0.41322
+"8","Anti-inflammatory","2",7522,0.15044
+"9","Antibiotics","3",528,0.01056
+"10","α-Blockers","3",21365,0.4273
+"11","α-Blockers + Antibiotics","3",18614,0.37228
+"12","Anti-inflammatory","3",9493,0.18986
+"13","Antibiotics","4",60,0.0012
+"14","α-Blockers","4",7682,0.15364
+"15","α-Blockers + Antibiotics","4",10601,0.21202
+"16","Anti-inflammatory","4",31657,0.63314
