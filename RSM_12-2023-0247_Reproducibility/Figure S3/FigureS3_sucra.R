@@ -1,9 +1,6 @@
 ### Last updated on 09-11-2024
 ### Figure S3
 
-setwd("~/Dropbox/Bingyu_PennCIL/00_Bingyu/Projects/CL-NMA/production/Figure S3")
-
-
 ######################## Code to reproduce Figure S3 ############################
 library(Matrix)
 library(plyr)
