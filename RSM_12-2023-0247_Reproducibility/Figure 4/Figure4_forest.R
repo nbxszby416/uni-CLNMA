@@ -1,19 +1,14 @@
 ### Last updated on 09-11-2024
 ### Figure 4
 
-setwd("~/Dropbox/Bingyu_PennCIL/00_Bingyu/Projects/CL-NMA/production/Figure 4")
-
 ######################## Code to reproduce Figure 4 ############################
 library(forestplot)
 library(Gmisc)
-library(showtext)
-
-
 
 # Add and use the custom font
-#font_add_google("Arial", "arial")
-font_add("Arial", regular = "path/to/arial.ttf")
-showtext_auto()
+# font_add_google("Arial", "arial")
+# font_add("Arial", regular = "path/to/arial.ttf")
+# showtext_auto()
 
 
 ### IOP-pairwise
