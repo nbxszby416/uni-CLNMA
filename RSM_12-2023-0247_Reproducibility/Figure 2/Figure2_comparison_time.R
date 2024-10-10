@@ -1,8 +1,6 @@
 ### Last updated on 09-11-2024
 ### Figure 2
 
-setwd("~/Dropbox/Bingyu_PennCIL/00_Bingyu/Projects/CL-NMA/production/Figure 2")
-
 ######################## Code to reproduce Figure 2 ############################
 library(ggplot2)
 
