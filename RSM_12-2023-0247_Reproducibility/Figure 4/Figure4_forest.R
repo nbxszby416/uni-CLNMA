@@ -5,12 +5,6 @@
 library(forestplot)
 library(Gmisc)
 
-# Add and use the custom font
-# font_add_google("Arial", "arial")
-# font_add("Arial", regular = "path/to/arial.ttf")
-# showtext_auto()
-
-
 ### IOP-pairwise
 ## 1 for pairwise meta-analysis; 2 for Li's approach; 3 for the proposed method
 data = read.csv("IOP_pairwise_scatter.csv", header=TRUE)
@@ -60,7 +54,6 @@ p=forestplot(labeltext=label_list,
              col =fpColors(box = c("green3", "red", "blue","purple", "grey"), line=c("darkgreen","darkred","darkblue","purple","darkgrey")),
              new_page=TRUE)
 
-# pdf("CP_CPPS_pairwise.pdf", width=8, height=10)
 png("CP_CPPS_pairwise.png", width = 1000, height = 1200, res = 120)
 print(p)
 dev.off()
