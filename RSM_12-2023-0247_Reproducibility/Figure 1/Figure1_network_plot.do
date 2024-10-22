@@ -19,10 +19,10 @@
 * 14	Tafluprost	
 * 15	Unoprostone
 
-*Install packages
-*net install StataNMA, from("http://www.mtm.uoi.gr/images/Vienna2015") replace
-*net from http://www.mtm.uoi.gr
-*net install network_graphs, replace
+* The function "networkplot" can be installed via the network graphs package: To do so, please follow these steps:
+* Run the command search network_graphs
+* Click on the entry labelled: st0411 from http://www.stata-journal.com/software/sj15-4
+* Click on click here to install.
 
 
 use "IOP_data.dta",clear
