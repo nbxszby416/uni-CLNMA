@@ -10,27 +10,31 @@ Below are the details of the files and functions used to generate each figure:
 Figure 1/Figure1_network_plot.do.
 </span>
 
-* Figure 2: Compares computational time for the proposed method with two existing methods implemented in the R packages ‘gemtc’ and ‘netmeta’, with varying numbers of treatments and studies. Please refer to 
+* Figure 2: Compares computational time for the proposed method with two existing methods implemented in the R packages ‘gemtc’ and ‘netmeta’, with varying numbers of treatments and studies. Please refer to the following files for details: 
 <span style="color:blue">
-Figure 2/Figure2_comparison_time.R.
+Figure 2/Figure2_comparison_time.R, get_table_meta.R, CLNMA.equal.tau.R.
 </span>
 
-* Figure 3: Displays coverage probabilities of estimated pooled treatment effects for comparisons between treatments AB and AC using the proposed method, with and without the KC-corrected and MD-corrected sandwich variance estimators under (a) within-study correlation of 0.2, and (b) within-study correlation of 0.5. Please refer to 
+* Figure 3: Displays coverage probabilities of estimated pooled treatment effects for comparisons between treatments AB and AC using the proposed method, with and without the KC-corrected and MD-corrected sandwich variance estimators under (a) within-study correlation of 0.2, and (b) within-study correlation of 0.5. We have included R codes for producing simulation results when n=5 .Please refer to the following files for details:
 <span style="color:blue">
-Figure 3/Figure3_CP.R.
+Figure 3/Figure3_CP.R, fun_simu.R, simu_gendata.R, CLNMA.equal.tau.R.
 </span>
+
 
 * Figure 4: Compares overall relative treatment estimates with 95\% confidence intervals using the pairwise meta-analysis approach, the standard NMA based on the Lu and Ades’ approach, the proposed method without corrections, and the proposed method with the KC-corrected or MD-corrected sandwich variance estimators. Each node represents the pooled mean difference for the outcomes of interest. Please refer to 
 <span style="color:blue">
 Figure 4/Figure4_forest.R.
 </span>
+A public example is available on our x-meta GitHub page (please refer to https://github.com/Penncil/xmeta/tree/master/R/CLNMA.equal.tau.R). 
 
 * Figure 5: Compares Z values using the standard NMA based on the Lu and Ades’ approach, the proposed method without corrections, and the proposed method with the KC-corrected or MD-corrected sandwich variance estimators, respectively. Please refer to 
 <span style="color:blue">
 Figure 5/Figure5_scatter.R.
 </span>
+A public example is available on our X-Meta GitHub page (please refer to https://github.com/Penncil/xmeta/tree/master/R/CLNMA.equal.tau.R). 
 
-* Figure S3: Displays treatment rankings calculated based on the surface under the cumulative ranking (SUCRA) method. Please refer to 
+
+* Figure S3: Displays treatment rankings calculated based on the surface under the cumulative ranking (SUCRA) method. Please refer to the following files for details:
 <span style="color:blue">
-Figure S3/FigureS3_sucra.R.
+Figure S3/FigureS3_sucra.R, get_table_IOP.R, get_table_meta.R, CLNMA.equal.tau.R.
 </span>
